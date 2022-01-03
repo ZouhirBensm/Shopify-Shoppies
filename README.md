@@ -39,9 +39,9 @@ zouhirbensmaia222@gmail.com
 npm start
 
 ## Re-deploy after changes
-npm run build
-npm run deploy
-git add .
-git commit -m "message"
-git push
+npm run build<br>
+npm run deploy<br>
+git add .<br>
+git commit -m "message"<br>
+git push<br>
 
