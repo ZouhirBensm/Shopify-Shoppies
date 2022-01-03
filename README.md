@@ -13,7 +13,7 @@ Project to resolve: <a href="https://docs.google.com/document/d/1SdR9rQpocsH5rPT
 
 # Live Demo
 
-## @ This link <a href="https://zouhirbensm.github.io/shopify/" target="_blank">:arrow_forward: CLICK HERE FOR DEMO! :arrow_forward:</a>
+## @ This link <a href="https://zouhirbensm.github.io/Shopify-Shoppies/" target="_blank">:arrow_forward: CLICK HERE FOR DEMO! :arrow_forward:</a>
 
 Note: If you are using Firefox a mixed content error message might apear because of API request. This is because of a security parameter within Firefox. To fix it, either change browsers or hit the -> Shield icon near the URL search bar @ the top, left. Then, toogle the enhanced traking protection to disable it. 
 
@@ -38,6 +38,10 @@ zouhirbensmaia222@gmail.com
 ## To Start Locally:
 npm start
 
-## See remote repo
-git remote show origin2
+## Re-deploy after changes
+npm run build
+npm run deploy
+git add .
+git commit -m "message"
+git push
 
